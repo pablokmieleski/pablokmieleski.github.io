@@ -1,6 +1,8 @@
 @import "_normalize";
 @import "_variables";
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 
 html {
   box-sizing: border-box;
@@ -11,6 +13,16 @@ html {
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  color: $big-stone;
+  background: #fff;
+  font-family: 'Poppins';
+  border: 16px solid $big-stone;
+}
+
+.hero__image {
+  padding: 0.375rem;
+  border-radius: 50%;
+  border: 0.375rem solid #CBD2D9;
+  height: 120px;
+  width: 120px;
 }
