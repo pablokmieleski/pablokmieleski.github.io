@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+@import "modules/hero.scss";
 
 html {
   box-sizing: border-box;
@@ -17,12 +18,9 @@ body {
   background: #fff;
   font-family: 'Poppins';
   border: 16px solid $big-stone;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-.hero__image {
-  padding: 0.375rem;
-  border-radius: 50%;
-  border: 0.375rem solid #CBD2D9;
-  height: 120px;
-  width: 120px;
-}
+
+
