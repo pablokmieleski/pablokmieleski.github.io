@@ -1,7 +1,7 @@
 .contact {
     background: $big-stone;
     color: #fff;
-    padding-bottom: 112px;
+    padding: 7rem 0 7rem;
     &__description {
         font-weight: 300;
         font-size: 1.25rem;
@@ -26,7 +26,6 @@
         line-height: 2.75rem;
         font-style: normal;
         margin: 0 auto 1rem;
-        padding: 8rem 0 0;
         max-width: 1216px;
         padding: 0 16px;
         &::before {
