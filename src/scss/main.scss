@@ -28,7 +28,11 @@ body {
   font-family: 'Poppins';
   border: 16px solid $big-stone;
   -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
+  
+  @media (max-width: $mobile) {
+    border: none;
+  }
 }
 
 .container {
