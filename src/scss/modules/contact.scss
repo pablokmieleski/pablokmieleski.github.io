@@ -19,6 +19,10 @@
         border-bottom: 2px solid $blue;
         display: inline-block;
         margin: 3rem 0 0 0;
+        &:hover {
+            transition: transform 0.05s linear;
+            transform: scale(1.03);
+        }
     }
     &__title {
         font-weight: 600;
