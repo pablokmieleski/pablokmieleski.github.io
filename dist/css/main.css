@@ -356,6 +356,17 @@ template {
     margin-left: 1.5rem; }
   .social__link {
     text-decoration: none; }
+    .social__link:visited {
+      text-decoration: none; }
+  .social__icon:hover {
+    -webkit-transition: -webkit-transform 0.05s linear;
+    transition: -webkit-transform 0.05s linear;
+    -o-transition: transform 0.05s linear;
+    transition: transform 0.05s linear;
+    transition: transform 0.05s linear, -webkit-transform 0.05s linear;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); }
 
 .hero {
   max-width: 1216px;

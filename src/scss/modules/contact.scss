@@ -52,5 +52,12 @@
     }
     &__link {
         text-decoration: none;
+        &:visited {
+            text-decoration: none;
+        }
+    }
+    &__icon:hover {
+        transition: transform 0.05s linear;
+        transform: scale(1.1);
     }
 }
