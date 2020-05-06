@@ -394,7 +394,10 @@ template {
     margin-bottom: 3.75rem; }
   .hero__link {
     color: #0593FB;
-    font-weight: 500; }
+    font-weight: 500;
+    text-decoration: none; }
+    .hero__link:hover {
+      text-decoration: underline; }
   .hero__mail {
     color: #0593FB;
     font-weight: 500;
@@ -515,6 +518,8 @@ template {
         -ms-flex-align: center;
             align-items: center;
     position: relative; }
+    .project__link:hover {
+      text-decoration: underline; }
     .project__link + .project__link {
       margin-left: 48px; }
       .project__link + .project__link::after {
