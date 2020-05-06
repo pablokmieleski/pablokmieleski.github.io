@@ -518,6 +518,8 @@ template {
         -ms-flex-align: center;
             align-items: center;
     position: relative; }
+    .project__link:hover {
+      text-decoration: underline; }
     .project__link + .project__link {
       margin-left: 48px; }
       .project__link + .project__link::after {

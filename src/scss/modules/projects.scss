@@ -70,6 +70,9 @@
         display: inline-flex;
         align-items: center;
         position: relative;
+        &:hover {
+            text-decoration: underline;
+        }
         & + & {
             margin-left: 48px;
             &::after {
